@@ -1,0 +1,17 @@
+//Read two integer values. After this, calculate the product between them and store the result in a variable named PROD. Print the result. 
+//Do not forget to print the end of line after the result, otherwise you will receive “Presentation Error”.
+
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+
+		int A = Convert.ToInt32((Console.ReadLine()));
+		int B = Convert.ToInt32((Console.ReadLine()));
+		int PROD = A * B;
+		Console.WriteLine("PROD = " + PROD);
+
+    }
+
+}
